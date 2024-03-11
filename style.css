@@ -183,6 +183,9 @@ header {
   font-size: 40px;
   margin: auto;
   width: fit-content;
+  position: relative;
+  right: 50px;
+  bottom: 30px;
 }
 
 .lines {
@@ -204,4 +207,45 @@ header {
 
 .lines > div:last-child {
   margin-right: 20px;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 50vh;
+  background-color: #000;
+}
+
+.footer-logo {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2 {
+  color: #ff3632;
+  width: fit-content;
+  margin: auto;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
